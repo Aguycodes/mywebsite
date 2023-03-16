@@ -1,0 +1,44 @@
+* {
+    font-size: 14pt;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    padding: 30px;
+    background-color: #01004e;
+    color: #eeeeee;
+    font-size: 30pt;
+    font-weight: bold;
+}
+.navbar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    margin: 0px;
+    padding: 15px;
+    background-color: #1672c7;
+}
+.navbar nav {
+    display: inline;
+}
+.navbar li {
+    margin: 0px;
+    display: inline;
+}
+.navbar a {
+    text-decoration: none;
+    padding: 15px;
+    margin: 0px;
+}
+.navbar a:link, .navbar a:visited {
+    color: #eeeeee;
+}
+.navbar a:hover, .navbar a:active {
+    color: #ffffff;
+    background-color: #01004e;
+}
+.navbar span {
+    float: right;
+}
