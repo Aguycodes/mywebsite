@@ -1,13 +1,21 @@
 * {
     font-size: 14pt;
+    color: #ffffff;
 }
 body {
+    background-image: url(images/meteor_shower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #434349;
+    background-blend-mode: multiply;
+    background-position: center;
     margin: 0px;
     padding: 0px;
 }
 header {
+    background-image: url(images/meteor_shower2.jpg);
+    background-size: cover;
     padding: 30px;
-    background-color: #01004e;
     color: #eeeeee;
     font-size: 30pt;
     font-weight: bold;
@@ -18,27 +26,39 @@ header {
     top: 0;
     margin: 0px;
     padding: 15px;
-    background-color: #1672c7;
+    background-color: #01004e;
 }
 .navbar nav {
     display: inline;
 }
-.navbar li {
+.navbar nav li {
     margin: 0px;
     display: inline;
 }
-.navbar a {
+.navbar nav a {
     text-decoration: none;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
     margin: 0px;
 }
-.navbar a:link, .navbar a:visited {
+.navbar nav a:link, .navbar nav a:visited {
     color: #eeeeee;
 }
-.navbar a:hover, .navbar a:active {
-    color: #ffffff;
-    background-color: #01004e;
+.navbar nav a:hover, .navbar nav a:active {
+    color: #01004e;
+    background-color: #ffffff;
 }
 .navbar span {
     float: right;
+}
+.navbar span a {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navbar span img{
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: .3em;
 }
